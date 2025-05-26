@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Fun">
+        <file>Icon/chat.png</file>
+        <file>Icon/chat_activte.png</file>
+    </qresource>
+</RCC>

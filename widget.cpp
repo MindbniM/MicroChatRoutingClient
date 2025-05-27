@@ -9,17 +9,15 @@ Widget::Widget(QWidget *parent)
     this->setWindowTitle("ChatMsgRoute");
 
     windowLeft=new FunWidget(this);
-    windowMid=new QWidget();
+    windowMid=new ListWidget(this);
     windowRight=new QWidget();
 
     QHBoxLayout* layout=new QHBoxLayout(this);
     layout->setSpacing(0);
     layout->setContentsMargins(0,0,0,0);
 
-    windowMid->setFixedWidth(250);
     windowRight->setMaximumWidth(900);
 
-    windowMid->setStyleSheet("background-color: rgb(230, 230, 230);");
     windowRight->setStyleSheet("background-color: rgb(245, 245, 245);");
     layout->addWidget(windowLeft);
     layout->addWidget(windowMid);

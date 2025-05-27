@@ -4,7 +4,7 @@
 #include <QWidget>
 #include <QHBoxLayout>
 #include "functionWidget.h"
-
+#include "listWidget.h"
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -22,7 +22,7 @@ private:
     ~Widget();
 private:
     FunWidget* windowLeft;
-    QWidget* windowMid;
+    ListWidget* windowMid;
     QWidget* windowRight;
 
 private:

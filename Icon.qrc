@@ -1,6 +1,11 @@
 <RCC>
     <qresource prefix="/Fun">
         <file>Icon/chat.png</file>
-        <file>Icon/chat_activte.png</file>
+        <file>Icon/address.png</file>
+        <file>Icon/address_activate.png</file>
+        <file>Icon/chat_activate.png</file>
+        <file>Icon/search.png</file>
+        <file>Icon/addChat.png</file>
+        <file>Icon/addAddress.png</file>
     </qresource>
 </RCC>
